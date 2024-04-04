@@ -1,0 +1,122 @@
+body {
+  background-color: white;
+  text-align: center;
+  padding: 25px 0;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: black 5px solid;
+}
+html {
+  background-image: url(img/line-spectrum-rgb-hjaswpq13xdovb9i.jpg);
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+hr {
+  width: 500px;
+}
+
+.rbg-code {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+input {
+  width: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+#redIn {
+  background-color: red;
+}
+#blueIn {
+  background-color: blue;
+}
+#greenIn {
+  background-color: green;
+}
+
+#display {
+  width: 400px;
+  height: 200px;
+  background: rgb(255, 255, 0);
+  margin: auto;
+  border: 3px grey solid;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  border-radius: 9px;
+  padding: 2px 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+.font-specific {
+  font-family: "Gabarito", sans-serif;
+  font-family: "New Tegomin", serif;
+  font-family: "Prompt", sans-serif;
+}
+
+button:hover {
+  background-color: black;
+}
+
+#BW-buttons {
+  padding: 10px;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#W-button {
+  background-color: white;
+  color: black;
+}
+#W-button:hover {
+  background-color: gold;
+  color: black;
+}
+
+#B-button {
+  background-color: black;
+  color: white;
+}
+#B-button:hover {
+  background-color: gold;
+  color: black;
+}
+
+#width {
+  background-color: grey;
+}
+
+#height {
+  background-color: grey;
+}
